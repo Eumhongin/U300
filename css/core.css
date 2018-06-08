@@ -1,0 +1,126 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+header{
+  width: 100%;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.logo_img{
+  float: left;
+}
+.menu{
+
+}
+.menu li{
+  float: left;
+}
+.section1{
+  padding:0;
+  margin:0;
+
+
+}
+.section2{
+  padding:0;
+  margin:0;
+  float: left;
+  margin-left: 10px;
+
+
+}
+img{
+  padding:0;
+  margin:0;
+  width: 100%;
+
+}
+
+.logininput{
+  padding-left: 10%;
+  float: left;
+}
+.idtext,.passtext{
+  width: 100%;
+  border:none;
+}
+.loginbutton{
+  width: 15%;
+  float: left;}
+.login{
+  box-shadow: 0 0 5px grey;
+  padding:8%;
+}
+.toplogin{
+  border:solid 1px black;
+  font-size: 1.22em;
+
+}
+.Notice,.Recruitment{
+  box-shadow: 0 0 10px grey;
+}
+.middle_banner{
+  padding-top:5%;
+}
+
+
+
+
+
+.container{
+  width: 100%;
+  margin:0 2% 0 2%;
+
+}
+.row:after{
+  content: '';
+  display: block;
+  clear: both;
+  box-sizing: border-box;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+  float: left;
+}
+.col-1{
+  width: 8.3333333%;
+}
+.col-2{
+  width: 16.6666667%;
+}
+.col-3{
+  width:25%;
+}
+.col-4{
+  width: 33.3333333%;
+}
+.col-5{
+  width: 41.6666667%;
+}
+.col-6{
+  width: 50%;
+}
+.col-7{
+  width: 58.3333333%;
+}
+.col-8{
+  width: 66.6666667%;
+}
+.col-9{
+  width: 75%;
+}
+.col-10{
+  width: 83.3333333%;
+}
+.col-11{
+  width: 91.6666667%;
+}
+.col-12{
+  width: 100%;
+}

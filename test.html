@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p id="hello" onclick="hello()">From Database</p>
+
+
+
+    <script type="text/javascript">
+    var FromDatabase = "helloworld";  //데이터베이스에서 불러옴
+    var p = document.getElementById("hello");
+
+    function hello(){
+      p.innerHTML = FromDatabase;
+
+    }
+
+
+
+
+    </script>
+
+  </body>
+</html>
